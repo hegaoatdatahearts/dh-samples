@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>dbase.server.ip</name>
+        <value>10.10.10.31</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.bucket.name</name>
+        <value>default</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.driver</name>
+        <value>org.postgresql.Driver</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>dbserver.ip</name>
+        <value>172.16.2.125</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbserver.port</name>
+        <value>5433</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbserver.sid</name>
+        <value>gtest</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.user</name>
+        <value>postgres</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>db.password</name>
+        <value>123456</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>sql</name>
+        <value>select * from table1</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.prefix</name>
+        <value>postgres::</value>
+        <description>
+        </description>
+    </property>
+
+
+</configuration>

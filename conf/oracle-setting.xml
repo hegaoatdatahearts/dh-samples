@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>dbase.server.ip</name>
+        <value>172.16.1.36</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.bucket.name</name>
+        <value>default</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.driver</name>
+        <value>oracle.jdbc.driver.OracleDriver</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>dbserver.ip</name>
+        <value>172.16.1.35</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbserver.port</name>
+        <value>1521</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbserver.sid</name>
+        <value>db20</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.user</name>
+        <value>shulie</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>db.password</name>
+        <value>shulie</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>sql</name>
+        <value>select rownum ,DEPTNO,DNAME,LOC,ID from DEPT2 where rownum &lt; 300</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.prefix</name>
+        <value>oracle::</value>
+        <description>
+        </description>
+    </property>
+
+
+</configuration>

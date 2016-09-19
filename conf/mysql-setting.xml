@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>dbase.server.ip</name>
+        <value>10.10.10.31</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.bucket.name</name>
+        <value>default</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.driver</name>
+        <value>com.mysql.jdbc.Driver</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>dbserver.ip</name>
+        <value>172.16.1.36</value>
+        <description>
+        </description>
+    </property>
+
+    <!--<property>-->
+        <!--<name>dbserver.port</name>-->
+        <!--<value>1521</value>-->
+        <!--<description>-->
+        <!--</description>-->
+    <!--</property>-->
+
+    <property>
+        <name>dbserver.sid</name>
+        <value>sltest</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>db.user</name>
+        <value>root</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>db.password</name>
+        <value>12345678</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>sql</name>
+        <value>select * from t1_utf8</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.prefix</name>
+        <value>mysql::</value>
+        <description>
+        </description>
+    </property>
+
+
+</configuration>

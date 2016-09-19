@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+    <property>
+        <name>dbase.server.ip</name>
+        <value>10.10.10.31</value>
+        <description>
+        </description>
+    </property>
+
+    <property>
+        <name>dbase.bucket.name</name>
+        <value>default</value>
+        <description>
+        </description>
+    </property>
+
+
+
+    <property>
+        <name>dbase.black.key.range</name>
+        <value>20</value>
+        <description>
+        </description>
+    </property>
+    <property>
+        <name>dbase.all.key.range</name>
+        <value>100</value>
+        <description>
+        </description>
+    </property>
+
+</configuration>

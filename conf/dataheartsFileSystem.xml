@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+
+
+<property>
+  <name>nfs.export.point</name>
+  <value>/</value>
+</property>
+
+<property>
+  <name>block.size</name>
+  <value>1</value>
+  <description>DFS block size(M).
+               Example value: 1
+  </description>
+</property>
+<property>
+  <name>io.file.buffer.size</name>
+  <value>4194304</value>
+  <description>io.file.buffer.size.
+               Example value: 4096
+  </description>
+</property>
+
+
+<property>
+  <name>fs.defaultFS</name>
+  <value>dfs://localhost:8091/</value>
+  <description>
+  </description>
+</property>
+
+<property>
+  <name>fs.dh.buffer.dir</name>
+  <value>/tmp/dfsclient/</value>
+  <description>
+  </description>
+</property>
+
+
+<property>
+  <name>replication.count</name>
+  <value>3</value>
+  <description>The count of Replication.
+               Example value: 3
+  </description>
+</property>
+
+
+
+<property>
+  <name>datahearts.server.list</name>
+  <value>10.10.10.32</value>
+  <description>A comma separated list of datahearts server names or IPs.
+               Example value: "localhost,192.168.1.9,myhost.example.com"
+  </description>
+</property>
+
+<property>
+  <name>datahearts.bucket</name>
+  <value>default</value>
+  <description>You want to connect the bucket ID.
+               Example value: "default"
+  </description>
+</property>
+
+<property>
+  <name>update.inode.persist.to</name>
+  <value>NONE</value>
+  <description>Valid values are NONE, MASTER, ONE (implies MASTER),
+               TWO, THREE, FOUR
+  </description>
+</property>
+<property>
+  <name>update.inode.replicate.to</name>
+  <value>NONE</value>
+  <description>Valid values are NONE, ONE, TWO, THREE</description>
+</property>
+<property>
+  <name>update.persist.to</name>
+  <value>NONE</value>
+  <description>Valid values are NONE, MASTER, ONE (implies MASTER),
+               TWO, THREE, FOUR
+  </description>
+</property>
+<property>
+  <name>update.replicate.to</name>
+  <value>NONE</value>
+  <description>Valid values are NONE, ONE, TWO, THREE</description>
+</property>
+
+<property>
+  <name>set.block.mode</name>
+  <value>0</value>
+  <description>0:This is CouchbaseClient's cas mode that will be used When you setup multiple NFS clients to access the same file.
+               1:This is CouchbaseClient's set mode that will be used When you do not need to access a same file from multiple NFS clients.
+               The set mode will be faster than the cas mode in theory.To choose according to your needs.
+  </description>
+</property>
+<property>
+  <name>set.inode.mode</name>
+  <value>0</value>
+  <description>0:This is CouchbaseClient's cas mode that will be used When you setup multiple NFS clients to access the same file.
+               1:This is CouchbaseClient's set mode that will be used When you do not need to access a same file from multiple NFS clients.
+               The set mode will be faster than the cas mode in theory.To choose according to your needs.
+  </description>
+</property>
+
+</configuration>
