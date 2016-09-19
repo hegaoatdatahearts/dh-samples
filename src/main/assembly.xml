@@ -15,7 +15,7 @@
             <lineEnding>unix</lineEnding>
             <fileMode>744</fileMode>
             <includes>
-                <include>README.txt</include>
+                <include>README.md</include>
             </includes>
         </fileSet>
         <fileSet>
